@@ -10,7 +10,27 @@
     "type": "git",
     "url": "git+https://github.com/shockzinfinity/shockz-vue-eslint-strict.git"
   },
-  "keywords": [],
+  "homepage": "https://github.com/shockzinfinity/shockz-vue-eslint-strict#readme",
+  "bugs": {
+    "url": "https://github.com/shockzinfinity/shockz-vue-eslint-strict/issues"
+  },
+  "keywords": [
+    "vue",
+    "eslint",
+    "vue eslint",
+    "eslintconfig"
+  ],
   "author": "shockz",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.10.0"
+  }
 }
